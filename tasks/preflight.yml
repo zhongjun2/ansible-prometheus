@@ -50,7 +50,7 @@
     - 'web.external-url'
   when: item in prometheus_config_flags_extra.keys()
 
-- name: Get all file_sd files from scrape_configs
+- name: Get all file_sd files from scrape_configs333
   set_fact:
     file_sd_files: "{{ prometheus_scrape_configs }}"
 
