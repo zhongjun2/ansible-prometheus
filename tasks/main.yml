@@ -1,5 +1,5 @@
 ---
-- name: Gather variables for each operating system
+- name: Gather222 variablesttt for each operating system
   include_vars: "{{ item }}"
   with_first_found:
     - "{{ ansible_distribution | lower }}-{{ ansible_distribution_major_version }}.yml"
