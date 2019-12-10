@@ -52,7 +52,7 @@
 
 - name: Get all file_sd files from scrape_configs444
   set_fact:
-    file_sd_files: [node.yml]
+    file_sd_files: [test.yml]
 
 - name: Fail when file_sd targets are not defined in scrape_configs
   fail:
